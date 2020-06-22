@@ -45,7 +45,7 @@ export default class Login extends Component {
           localStorage.setItem('id', '1');
           localStorage.setItem('username', this.state.username);
           localStorage.setItem('email', 'biru@gmail.com');
-          localStorage.setItem('roles', 'ROLE_USER');
+          localStorage.setItem('roles', 'ROLE_ADMIN');
           this.props.history.push("/profile");
           window.location.reload();
     } else {
